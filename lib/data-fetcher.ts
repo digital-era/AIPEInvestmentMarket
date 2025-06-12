@@ -5,7 +5,7 @@ export interface InvestmentData {
 export async function fetchInvestmentData(): Promise<InvestmentData> {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/digital-era/AIPEMarketData/main/data/AIEPMarketData.json",
+      "https://raw.githubusercontent.com/digital-era/AIPEMarketData/main/data/AIEPMarketData1.json",
     )
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`)
