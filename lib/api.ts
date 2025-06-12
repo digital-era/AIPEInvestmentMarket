@@ -4,7 +4,7 @@ export interface MarketData {
 
 export async function fetchMarketData(): Promise<MarketData> {
   const response = await fetch(
-    "https://raw.githubusercontent.com/digital-era/AIPEMarketData/main/data/AIEPMarketData1.json",
+    "https://raw.githubusercontent.com/digital-era/AIEPMarketData/main/data/AIEPMarketData11.json",
   )
 
   if (!response.ok) {
