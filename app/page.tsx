@@ -1,5 +1,5 @@
-import AIPEDashboard from "../components/aipe-dashboard"
+import Dashboard from "@/components/dashboard"
 
-export default function Page() {
-  return <AIPEDashboard />
+export default function Home() {
+  return <Dashboard />
 }
